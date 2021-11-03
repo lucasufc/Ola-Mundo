@@ -11,8 +11,48 @@ body {
 
 main {
     background-color: whitesmoke;
-    width: 500px;
-    margin: auto;
-    padding: 10px;
+    box-sizing:border-box;
+    height: 900px;
+    width: 900px;
+    margin: 0px auto;
+    padding: 10px 10px 50px 10px;
     box-shadow: 3px 3px 5px #00000077;
+}
+h2 {
+    background-image: linear-gradient(to right, rgb(38, 0, 70), transparent);
+    color: whitesmoke;
+    padding: 8px 15px;
+}
+
+h1 { 
+    font-size: 40px;
+}
+
+p{
+    text-indent: 30px;
+    margin-bottom: 0px;
+}
+
+footer {
+    box-sizing:border-box;
+    width: 900px;
+    height: 50px;
+    margin: auto;
+    background-color: black;
+    padding-top: 15px;
+}
+
+footer > p {
+    margin-top: 0px;
+    color: whitesmoke;
+    text-align: center;
+}
+footer a {
+    color: #43009b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color:#be8cff;
 }
